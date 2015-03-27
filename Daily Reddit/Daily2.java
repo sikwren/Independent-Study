@@ -34,7 +34,7 @@ public class Daily2 {
 		}
 		
 		if (discriminant < 0){
-			System.out.println("No real roots a. Contains imaginary numbers.");
+			System.out.println("No real roots. Contains imaginary numbers.");
 		}
 		
 	   
