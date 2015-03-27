@@ -12,19 +12,32 @@ public class Daily2 {
 		//User input for a, b, and c
 		System.out.print("a = " );
 		double a = in.nextDouble();
-		
 		System.out.print("b = ");
 		double b = in.nextDouble();
-		
 		System.out.print("c = ");
 		double c = in.nextDouble();
 		
-		//Computing Quadratic Formula
-		double square = b * b - +4 * a * c;
-		double positiveQuad = (-b + Math.sqrt(square)) / 2 * a;
-		double negativeQuad = (-b - Math.sqrt(square)) / 2 * a;
+		double positiveQuad = 0;
+		double negativeQuad = 0;
 		
-	   System.out.println(positiveQuad + " " + negativeQuad);
+		double discriminant = b * b - 4 * a * c;
+		
+		if (discriminant > 0){
+			positiveQuad = (-b + Math.sqrt(discriminant)) / (2 * a);
+			negativeQuad = (-b - Math.sqrt(discriminant)) / (2 * a);
+			System.out.println("Two real roots: " + positiveQuad + " and " + negativeQuad);
+		}
+		
+		if (discriminant == 0){
+			System.out.println("One real root: " + positiveQuad);
+			
+		}
+		
+		if (discriminant < 0){
+			System.out.println("No real roots a. Contains imaginary numbers.");
+		}
+		
+	   
 	   in.close();
 	}
 
