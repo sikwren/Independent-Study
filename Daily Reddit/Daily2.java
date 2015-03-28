@@ -10,11 +10,8 @@ public class Daily2 {
 		System.out.println("Enter a,b,c: ");
 		
 		//User input for a, b, and c
-		System.out.print("a = " );
 		double a = in.nextDouble();
-		System.out.print("b = ");
 		double b = in.nextDouble();
-		System.out.print("c = ");
 		double c = in.nextDouble();
 		
 		double positiveQuad = 0;
@@ -28,13 +25,13 @@ public class Daily2 {
 			System.out.println("Two real roots: " + positiveQuad + " and " + negativeQuad);
 		}
 		
-		if (discriminant == 0){
+		else if (discriminant == 0){
 			System.out.println("One real root: " + positiveQuad);
 			
 		}
 		
-		if (discriminant < 0){
-			System.out.println("No real roots a. Contains imaginary numbers.");
+		else{
+			System.out.println("No real roots. Contains imaginary numbers.");
 		}
 		
 	   
