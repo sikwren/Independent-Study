@@ -30,11 +30,8 @@ public class Daily2 {
 			
 		}
 		
-<<<<<<< HEAD
+
 		else{
-=======
-		if (discriminant < 0){
->>>>>>> origin/master
 			System.out.println("No real roots. Contains imaginary numbers.");
 		}
 		
