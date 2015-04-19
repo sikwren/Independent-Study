@@ -1,1 +1,1 @@
-This is a collection of my solutions from the website CodeAbbey (http://www.codeabbey.com/). All solutions are in Java!
+This is a collection of my solutions from the website CodeAbbey (http://www.codeabbey.com/). Currently all solutions are in Java. Hopefully in the near future  I will be uploading solutions in differnet languages!
