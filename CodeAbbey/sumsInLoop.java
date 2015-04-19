@@ -1,3 +1,4 @@
+//Problem #3
 import java.util.Scanner;
 
 public class sumsInLoop{
