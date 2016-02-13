@@ -30,7 +30,6 @@ public class Daily2 {
 			
 		}
 		
-
 		else{
 			System.out.println("No real roots. Contains imaginary numbers.");
 		}
