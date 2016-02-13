@@ -1,3 +1,4 @@
+//Problem #4
 import java.util.Scanner;
 
 public class minOfTwo{

@@ -1,15 +1,15 @@
-import java.util.*;//import scanner
+//Problem #2
+import java.util.Scanner;
 
-public class suminloops{
+public class sumInLoop{
     public static void main(String[] args){
         Scanner in = new Scanner(System.in);
         
-        int sum = 0;
         int cases = in.nextInt();
+        int sum = 0;
         
         for (int i = 0; i < cases; i++){
-             int n = in.nextInt();
-            sum = sum + n;
+            sum += in.nextInt();
         }
         System.out.println(sum);
     }
